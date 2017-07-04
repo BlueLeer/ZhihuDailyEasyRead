@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/rv_item"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorGrayWhite"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_rv_item_day"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:maxLines="2"
+                android:paddingLeft="20dp"
+                android:id="@+id/tv_title"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:text="年后啊年后啊年后啊年后啊年后啊年后啊年后啊年后啊年后啊年后啊年后啊年后啊"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:text="6月25日"
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="25dp"
+                android:textSize="10sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_test"/>
+    </LinearLayout>
+
+</LinearLayout>
